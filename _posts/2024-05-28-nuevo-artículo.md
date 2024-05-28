@@ -20,12 +20,11 @@ categories:
 
 ## Borradores
 
+Para crear un borrador usando nano:
+
 ```sh
 nano _drafts/<título>.md
 ```
-
-Añadir front matter con fecha y título, luego pasar el 
-archivo a `_posts`.
 
 Para ver un borrador en `localhost`:
 
@@ -33,11 +32,25 @@ Para ver un borrador en `localhost`:
 bundle exec jekyll serve --drafts
 ```
 
+## Publicación
+
 Para pasarlo a `_posts` y publicar:
 
 ```sh
-mv _drafts/<título>.md _posts/2024-05-28-<título>.md
+mv _drafts/<título>.md _posts/YYYY-MM-DD-<título>.md
 ```
 
+## Layouts
 
+Por defecto los artículos usan el layout `post` del tema 
+minima. Para editar estos archivos primero podemos ver la 
+instalación local:
+
+```sh
+code $(bundle info --path minima)
+```
+
+Cada archivo que se quiera modificar debe crearse como copia
+en el repositorio local para evitar cambiar la configuración 
+ni el código de la Ruby gem.
 
