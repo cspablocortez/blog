@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Acerca de
+title: ¿Qué es esto?
 permalink: /about/
 ---
 
