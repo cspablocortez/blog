@@ -19,19 +19,25 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Metablog
-email: "[dominio] [arroba] gmail [punto] com"
+author: cspablocortez
+email: "dominio arroba gmail punto com"
 description: >- # this means to ignore newlines until "baseurl:"
   Metablog es una bitácora que registra el desarrollo de un proyecto 
   Jekyll, describiendo los procesos, gestiones y desiciones que debe tomar un 
-  desarrollador a la hora de usar un generador de sitios estaticos. Por supuesto,
-  también es como un cuaderno con notas para futura referencia.
+  desarrollador a la hora de usar un generador de sitios estáticos. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
-github_username:  jekyll
+github_username:  cspablocortez
+
+
 
 # Build settings
 theme: minima
+
+minima:
+  skin: dark
+
 plugins:
   - jekyll-feed
 
