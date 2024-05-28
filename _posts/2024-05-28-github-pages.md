@@ -31,5 +31,5 @@ de `localhost`  con:
 $ bundle exec jekyll serve`
 ```
 
-Cuando confirmo los camnbios, Github Pages procesará mis archivos desde el 
+Cuando confirmo los cambios, Github Pages procesará mis archivos desde el 
 código fuente del repositorio.
