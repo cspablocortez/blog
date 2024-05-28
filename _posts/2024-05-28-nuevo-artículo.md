@@ -52,5 +52,5 @@ code $(bundle info --path minima)
 
 Cada archivo que se quiera modificar debe crearse como copia
 en el repositorio local para evitar cambiar la configuración 
-ni el código de la Ruby gem.
+y el código de la Ruby gem.
 
