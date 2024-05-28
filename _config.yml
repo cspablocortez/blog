@@ -25,8 +25,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Metablog es una bitácora que registra el desarrollo de un proyecto 
   Jekyll, describiendo los procesos, gestiones y desiciones que debe tomar un 
   desarrollador a la hora de usar un generador de sitios estáticos. 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "https://cspablocortez.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  cspablocortez
 
