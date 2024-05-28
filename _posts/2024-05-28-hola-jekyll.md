@@ -5,22 +5,7 @@ date:   2024-05-28 00:59:34 -0700
 categories: jekyll update
 ---
 
-I decided it'd be fun to set up a Jekyll site since it's 
-very similar to what I've already been doing on pandoc to 
-manage my personal notes. For anything that would ever be 
-published, such as these words, I figured it'd be better to 
-adhere to tested solutions rather than write my own makefile 
-to convert my files and push them to a remote git 
-repository. That was important in my decision, I wanted the 
-flexibility of accessing the site's content (which is mostly 
-really a bunch of markdown files) from the command line, 
-since I rely on nano for longform writing after having 
-tweaked its configuration file to make it pleasant to use on 
-a Galaxy Tab S7 Plus. 
-
-So here is a short first post to get the ball rolling.
-
-Realmente no hay mucho cambio en la rutina que más o menos 
+No hay mucho cambio en la rutina que más o menos 
 ya había concertado para este proceso de escribir notas: 
 sigo abriendo mi Terminal a un determinado directorio, 
 luego:
