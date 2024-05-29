@@ -1,0 +1,26 @@
+#!/usr/bin/env ruby
+
+print "Título: "
+title = gets.chomp
+slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+
+date = Time.now.strftime("%Y-%m-%d")
+
+filename = "_posts/#{date}-#{slug}.md"
+
+# Prepare the front matter and content
+content = <<~HEREDOC
+  ---
+  title: #{title}
+  date: #{date}
+  layout: post
+  published: false
+  ---
+
+  
+HEREDOC
+
+# Write to the file
+File.write(filename, content)
+
+puts "Post created: #{filename}"
