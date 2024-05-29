@@ -1,5 +1,5 @@
 ---
-title: Guía para crear nuevo artículo
+title: Guía para crear un nuevo artículo
 layout: post
 date: 2024-05-28 14:49:19 -7000
 categories: jekyll tutorial

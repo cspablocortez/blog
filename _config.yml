@@ -20,7 +20,9 @@
 
 title: Metablog
 author: cspablocortez
-email: "dominio arroba gmail punto com"
+
+lang: es
+
 description: >- # this means to ignore newlines until "baseurl:"
   Metablog es una bitácora que registra el desarrollo de un proyecto 
   Jekyll, describiendo los procesos, gestiones y decisiones que debe tomar un 
@@ -34,7 +36,6 @@ github_username:  cspablocortez
 
 # Build settings
 theme: minima
-
 minima:
   skin: dark
 

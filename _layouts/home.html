@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: es
 ---
 
 <div class="home">
@@ -10,7 +11,7 @@ layout: default
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <h2 class="post-list-heading">{{ page.list_title | default: "" }}</h2>
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>
@@ -21,6 +22,8 @@ layout: default
             {{ post.title | escape }}
           </a>
         </h3>
+        
+
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
@@ -28,7 +31,6 @@ layout: default
       {%- endfor -%}
     </ul>
 
-    <p class="rss-subscribe">suscríbete <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   {%- endif -%}
 
 </div>
