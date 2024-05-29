@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+filename = ARGV[0]
+system("aspell -c -d es #{filename}")
