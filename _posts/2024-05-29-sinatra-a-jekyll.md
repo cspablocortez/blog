@@ -1,19 +1,19 @@
 ---
-title: La configuración de mis notas a un blog de Jekyll
+title: De Sinatra a Jekyll 
 date: 2024-05-29
 layout: post
 published: true
 ---
 
 Llevo la mayor parte del año acumulando notas de mi día a 
-día en archivos markdown gestionados por un repositorio 
-git. Configuré una aplicación de Sinatra para generar un 
-blog rudimentario, con la habilidad de buscar archivos y 
-mostrar una versión HTML de cada documento con RedCarpet y 
-WebRick. Estaba inventando el hilo negro. Jekyll ya tiene 
-todas estas funciones por defecto, así que me propuse 
-convertir ese conjunto de carpetas y scripts para gestionar 
-la creación de contenido en un sólo proyecto Jekyll.
+día en archivos markdown gestionados por un repositorio git. 
+Configuré una aplicación de Sinatra para generar un blog 
+rudimentario con la habilidad de buscar archivos y mostrar 
+una versión HTML de cada documento con RedCarpet y WebRick. 
+Estaba inventando el hilo negro. Jekyll ya tiene todas estas 
+funciones por defecto, así que me propuse consolidar todo 
+ese conjunto de carpetas y scripts en un sólo proyecto 
+Jekyll.
 
 La estructura del repositorio antes de Jekyll:[^1]
 
@@ -129,8 +129,8 @@ $ tree ~/Documents/Notas2024/ -I stage/
 
 ```
 
-Mi rutina durante este tiempo consistió de los siguientes 
-comandos:
+Mi rutina durante este tiempo consistió en el uso de los 
+siguientes comandos:
 
 ```sh
 $ bin/new hoy
@@ -141,10 +141,10 @@ Esto genera un archivo con el formato
 
 Para editar y escribir uso una combinación de nano y vim, 
 nano para redactar y vim para editar, en especial si un 
-documento necesita ediciones precisas y repetitivas. 
+documento necesita ediciones precisas o repetitivas. 
 
 Antes de convertir el archivo en HTML para verlo en un 
-servidor local, ejecuto `bin/spell [archivo]`:
+servidor local ejecuto `$ bin/spell [archivo]`:
 
 ```ruby
 #!/usr/bin/env ruby
@@ -154,29 +154,26 @@ input_filename = ARGV[0] || 'input.md'
 system("aspell -c -d es #{input_filename}")
 ```
 
-y después con `bin/preview [archivo]` puedo ver el documento 
-en un navegador. Este preview solo funciona con un archivo a 
-la vez. Para ver todos los documentos que tenía 
-acumulados, usaba `bin/run`, lo que activaba la aplicación 
-de Sinatra que gestionaba el contenido. En ocasiones usaba 
+Con `bin/preview [archivo]` el documento queda confirmado en 
+el repositorio con un mensaje de autoguardado y se abre en 
+el navegador, pero solo funciona con un archivo a la vez. 
+Para ver todos los documentos, usaba `bin/run` para iniciar 
+la aplicación de Sinatra. En ocasiones usaba 
 [glow](https://github.com/charmbracelet/glow) para leer los 
-documentos sin tener que iniciar un servidor.
-
-Los Ruby scripts de `bin/` facilitaron mucho mi proceso de 
-creación, así que al convertir el proyecto en un website 
-para Jekyll, decidí reescribirlos, orientados al 
-sistema de archivos de Jekyll, en particular el uso de las 
-carpetas 
-`_drafts` y `_posts` y los nombres requeridos para los 
-archivos, porque Jekyll necesita los archivos en formato 
-`YYYY-MM-DD.md`.
+documentos sin tener que iniciar un servidor, ya que todo el 
+proceso anterior me resultaba engorroso para cambios 
+pequeños o para leer un determinado documento. La idea ahora 
+es enfocarse en el contenido y dejar su procesamiento y 
+distribución a Jekyll.
 
 ## Creación de Sitio Jekyll
 
-Empecé por crear un proyecto de Jekyll:
+La guía de inicio de la [documentación](https://jekyllrb.com/docs/) explica cómo 
+crear un blog. 
+
 
 ```sh
-jekyll new stage
+$ jekyll new stage
 ```
 
 Los primeros archivos que pasé a `_posts` fueron los del mes 
@@ -219,17 +216,12 @@ después `$ ./prepend.sh`.
 
 ## Cambio de tema
 
-Para el tipo de contenido que pienso albergar en este sitio, 
+Para el tipo de contenido que pienso alojar en este sitio, 
 decidí instalar el tema 
 [Persephone](https://github.com/erlzhang/jekyll-theme-persephone) 
-en el `Gemfile` con `bundle install`. Dediqué la mayor parte 
-de la tarde a configurar el sitio y leer su 
-documentación.
+en el `Gemfile` con `bundle install`. 
 
 ## Scripts de gestión de contenido
-
-Antes de crear los scripts en mi carpeta de notas, decidí 
-escribirlos para este blog. En total son dos scripts:
 
 ### Nuevo Post
 
