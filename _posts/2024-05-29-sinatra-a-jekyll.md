@@ -9,15 +9,13 @@ Llevo la mayor parte del año acumulando notas de mi día a
 día en archivos markdown gestionados por un repositorio git. 
 Configuré una aplicación de Sinatra para generar un blog 
 rudimentario con la habilidad de buscar archivos y mostrar 
-una versión HTML de cada documento con RedCarpet y WebRick. 
+una versión HTML de cada documento con RedCarpet y Webrick. 
 Estaba inventando el hilo negro. Jekyll ya tiene todas estas 
 funciones por defecto, así que me propuse consolidar todo 
 ese conjunto de carpetas y scripts en un sólo proyecto 
 Jekyll.
 
-La estructura del repositorio antes de Jekyll:[^1]
-
-[^1]: El sitio Jekyll está en `stage/`  
+La estructura del repositorio antes de Jekyll:
 
 ```sh
 $ tree ~/Documents/Notas2024/ -I stage/
@@ -169,7 +167,8 @@ distribución a Jekyll.
 ## Creación de Sitio Jekyll
 
 La guía de inicio de la [documentación](https://jekyllrb.com/docs/) explica cómo 
-crear un blog. 
+crear un blog. También escribí una [guía para publicar un 
+projecto de Jekyll en Github Pages]({{ site.baseurl }}{% post_url 2024-05-28-github-pages %}).
 
 
 ```sh
@@ -265,11 +264,20 @@ filename = ARGV[0]
 system("aspell -c -d es #{filename}")
 ```
 
-### PATH
+### Previsualización de archivos
 
-Para poder usar los scripts desde cualquier directorio (es 
-decir, en otros blogs Jekyll) copié el script al directorio 
-`~/bin`:
+`pvw` es un alias en mi `~/.zshrc`:
+
+```bash
+alias pvw='bundle exec jekyll serve'
+```
+
+y después: `source ~/.zshrc`.
+
+### Nota sobre PATH
+
+Para poder usar los scripts desde cualquier directorio se 
+necesita copiar (o mover) el script al directorio `~/bin`:
 
 ```sh
 cp spell ~/bin
@@ -277,13 +285,11 @@ cp spell ~/bin
 
 #### Directorio ~/bin
 
-Después de constatar que no casuaran problemas, agregué 
-ambos scripts al directorio `~/bin`. Este directorio 
-contiene los archivos binarios del sistema, personalizados 
-al usuario actual. También existe `/bin` y `/usr/bin`, el 
-primero contiene los programas necesarios durante el proceso 
-de arranque y están disponibles para todos los usuarios, y 
-el último los que no son críticos.
+Este directorio contiene los archivos binarios del sistema, 
+personalizados al usuario actual. También existe `/bin` y 
+`/usr/bin`, el primero contiene los programas necesarios 
+durante el proceso de arranque y están disponibles para 
+todos los usuarios, y el último los que no son críticos.
 
 ```sh
 $ mkdir ~/bin
