@@ -1,5 +1,6 @@
 ---
 title: Java and Python Cheatsheet
+author: Ashur Hamilton
 date: 2024-05-31
 layout: post
 published: true
@@ -11,7 +12,7 @@ published: true
   - Declaring variables
 
 ```java
-String name = "Pablo";
+String city  = "Las Vegas";
 int day = 31;
 double degrees = 98.9;
 char grade = 'A';
