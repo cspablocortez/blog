@@ -75,7 +75,7 @@ Right now, your project only has one file and its file structure looks like this
 └── README.md
 ```
 
-We need to add a few more files to make this into a devlog. We will use a tool called [Bundler](https://bundler.io) to manage the `gems` we install in our computer. Bundler makes sure we have the right version of each one. Since `gems` depend on each other, Bundler checks the version numnber of each one and keeps them all working together.
+We need to add a few more files to make this into a devlog. We will use a tool called [Bundler](https://bundler.io) to manage the `gems` we install in our computer. Bundler makes sure we have the right version of each one. Since `gems` depend on each other, Bundler checks the version number of each one and keeps them all working together.
 
 First we have to open Github Desktop and find our project. Next, open it up in Visual Studio Code.
 
