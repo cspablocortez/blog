@@ -2,6 +2,7 @@
 title: Initial Devlog setup on Windows
 author: Pablo E. Cortez
 category: lesson
+tag: devlog
 date: 2024-06-03
 layout: post
 published: true
