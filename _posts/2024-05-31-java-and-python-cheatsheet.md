@@ -2,7 +2,7 @@
 title: Java and Python Cheatsheet
 date: 2024-05-31
 layout: post
-published: true
+published: false
 ---
 
 # Variables and Data Types

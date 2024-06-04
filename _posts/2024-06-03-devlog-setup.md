@@ -1,5 +1,5 @@
 ---
-title: Initial Devlog setup on Windows
+title: Devlog Part 1 - Initial setup on Windows
 author: Pablo E. Cortez
 category: lesson
 tag: devlog

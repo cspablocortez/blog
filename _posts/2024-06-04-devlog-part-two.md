@@ -1,5 +1,5 @@
 ---
-title: Guide for creating a Jekyll site from scratch
+title: Devlog Part 2 - Github Pages Deployment
 author: Pablo E. Cortez
 date: 2024-06-04
 layout: post
