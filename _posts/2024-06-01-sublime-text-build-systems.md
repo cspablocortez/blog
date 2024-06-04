@@ -20,8 +20,7 @@ Un sistema de compilación es un archivo JSON con la extensión `.sublime-build`
 
 `Tools > Build System > New Build System...`
 
-En esto ejemplo, el archivo markdown puede convertirse en PDF o en presentación 
-usando `pandoc`.
+En este ejemplo, el archivo markdown puede exportarse a PDF usando `pandoc`.
 
 ```JSON
 {
