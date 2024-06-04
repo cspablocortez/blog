@@ -1,6 +1,5 @@
 ---
 title: Java and Python Cheatsheet
-author: Ashur Hamilton
 date: 2024-05-31
 layout: post
 published: true
