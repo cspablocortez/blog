@@ -40,7 +40,8 @@ Your devlog falls somewhere in the middle. You will be updating it as you build 
 
 # Jekyll
 
-The purpose of a static site generator like Jekyll is to take files written in an easy-to-read (and write!) format like Markdown and covert them to HTML, this way you can focus on adding text, links, images, files and other content related to the development of your application, leaving the processing and deployment of the website to Jekyll. 
+The purpose of a static site generator like Jekyll is to 
+take files written in an easy-to-read (and write!) format like Markdown and convert them to HTML, this way you can focus on adding text, links, images, files and other content related to the development of your application, leaving the processing and deployment of the website to Jekyll. 
 
 To oversimplify: **a Jekyll site *is* a regular website with some specific folder names.** After you finish setting up your site and it is live on Github Pages, your only focus will be to manage Markdown files, never having to worry about the HTML, CSS, and all other assets. The reason we are using Jekyll is because we are also using Github to save our code, and Jekyll was made by [Tom Preston-Werner](https://tom.preston-werner.com), the co-founder of Github[^1] so Jekyll and Github Pages work together by default.
 
@@ -132,6 +133,9 @@ To see the results of your Jekyll site, you have to start a local server:
 ```sh
 $ bundle exec jekyll serve
 ```
+
+**Note:** You may need to run `$ bundle install` in case of 
+any missing dependencies.
 
 The `bundle exec` part of the command ensures that Jekyll uses the version defined in your `Gemfile` to launch your site. This is important when you use a theme, since Jekyll themes, which alter your site's appearance, are installed as `gems`. With the `serve` command, you should be able to see your site by visiting `http://localhost:4000` with your web browser. 
 
