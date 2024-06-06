@@ -97,11 +97,14 @@ Enter the repository, commit your changes, and press the publish button.
 
 ![Github Commit and Publish GIF](https://pages.github.com/images/desktop-demo@2x.gif)
 
+# Conclusion 
+
 With all these steps completed you are now ready to begin setting up a Jekyll project for the devlog.
 
----
+# Next: [Part 2 - Github Pages Deployment]({{site.baseurl}}{% link _posts/2024-06-04-devlog-part-two.md %})
 
 
+--- 
 
-
+#### Footnotes
 

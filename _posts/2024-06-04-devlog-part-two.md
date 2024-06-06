@@ -159,6 +159,9 @@ Visit your project repository on Github. You should see all you files uploaded, 
 
 If all went well, you now have a fully functioning website. In the next entry, we will be going through the files in our project to understand what each one is for, although our focus will mainly be on just one folder, `_posts`. Here, you will be creating Markdown files that Github Pages will automatically turn into HTML documents. 
 
----
+# Next: [Part 3 - Devlog Project Structure]({{site.baseurl}}{% link _posts/2024-06-05-devlog-part-three.md %})
 
-### Footnotes
+
+--- 
+
+#### Footnotes
