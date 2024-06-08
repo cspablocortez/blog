@@ -34,7 +34,7 @@ After you have selected the Authenticator App option, Github will provide you wi
 
 Once you have added your Github account to the Authenticator app, you should see a code generated for you:
 
-![Video](https://authenticator.cc/assets/quickstart/qr-scan.webm)
+<video style="width: 400px" src="https://authenticator.cc/assets/quickstart/qr-scan.webm" autoplay loop></video>
 
 # Conclusion
 
