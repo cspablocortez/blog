@@ -2,8 +2,10 @@
 title: Java and Python Cheatsheet
 date: 2024-05-31
 layout: post
-published: false
+published: true
 ---
+
+Last updated: Sun Jun 16 at 6:41:46 PM PST
 
 # Variables and Data Types
 
@@ -45,7 +47,6 @@ if (age >= 16 && hasLicense) {
 } else {
   System.out.println("Ride the bus lol");
 }
-
 ```
   
   - Loops: for, while, do-while
@@ -109,9 +110,45 @@ public int square(int n) {
 
 - **Java**
   - Arrays
+
+```java
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+int[] myNum - {10, 20, 30, 40};
+```
+
   - ArrayLists
+
+First you'll import the `ArrayList` class from the `java.util` package.
+
+```java
+import java.util.ArrayList;
+```
+
+```java
+ArrayList<String> cars = new ArrayList<String>(); 
+cars.add("Volvo");
+cars.add("BMW");
+cars.add("Ford");
+cars.add(0, "Mazda"); // Insert element at the beginning of the list (0)
+System.out.println(cars);
+```
+
   - HashMaps
-  
+
+HashMaps in Java are similar to dictionaries in Python &mdash;they're for storing items in key - value pairs.
+
+```java
+import java.util.HashMap; // import the HashMap class
+
+HashMap<String, String> capitalCities = new HashMap<String, String>();
+// Add keys and values (Country, City)
+capitalCities.put("England", "London");
+capitalCities.put("Germany", "Berlin");
+capitalCities.put("Norway", "Oslo");
+capitalCities.put("USA", "Washington DC");
+System.out.println(capitalCities);
+```
+
 - **Python**
   - Lists
   - Dictionaries
