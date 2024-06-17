@@ -162,6 +162,19 @@ System.out.println(capitalCities);
   - Understanding classes and objects
   - Constructors
   - Encapsulation, Inheritance, and Polymorphism
+
+## Classes
+
+A class called `Main` in a file called `Main.java` with a `main` method.
+
+```java
+
+public Class Main {
+	public static void main(String[] args) {
+		
+	}
+}
+```
   
 - **Python**
   - Classes and objects
@@ -174,8 +187,31 @@ System.out.println(capitalCities);
 
 - **Java**
   - Try-catch blocks
+
+```java
+public class Main {
+  public static void main(String[ ] args) {
+    try {
+      int[] myNumbers = {1, 2, 3};
+      System.out.println(myNumbers[10]);
+    } catch (Exception e) {
+      System.out.println("Something went wrong.");
+    }
+  }
+}
+```
   - Finally block
   - Creating custom exceptions
+
+```java
+try {
+    System.out.println("The count is " + Integer.parseInt(count));
+} catch (NumberFormatException e) {
+    System.out.println("No count");
+} finally {
+    System.out.println("In finally");
+}
+```
   
 - **Python**
   - Try-except block
@@ -205,5 +241,17 @@ System.out.println(capitalCities);
   - One USACO problem (Bronze Level)
   - One USACO problem (Silver Level)
   - One USACO problem (Gold Level)
+
+## Recommendations:
+
+I recommend you solve at least *one* of the following problems using *both* languages. If you visit the [USACO Guide problems page](https://usaco.guide/problems/), you should be able to find solutions for these problems. Only use them to go over your work!
+
+[USACO 2016 January Contest, Bronze - Problem 1. Promotion Counting](https://usaco.org/index.php?page=viewproblem2&cpid=591)
+
+[USACO 2020 January Contest, Bronze - Problem 1. Word Processor](https://usaco.org/index.php?page=viewproblem2&cpid=987)
+
+[USACO 2016 December Contest, Silver - Problem 1. Counting Haybales](https://usaco.org/index.php?page=viewproblem2&cpid=666)
+
+
 
 
