@@ -1,0 +1,89 @@
+---
+layout: default
+---
+
+<style>
+    .post-content {
+        display: none;
+    }
+</style>
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {{ page.date | date: date_format }}
+      </time>
+      {%- if page.author -%}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+      {%- endif -%}</p>
+  </header>
+
+  <pre>Note: The content in this post will be typed automatically.</pre>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  <div class="typed-post">
+
+  </div>
+
+  {%- if site.disqus.shortname -%}
+    {%- include disqus_comments.html -%}
+  {%- endif -%}
+
+  <!-- <a class="u-url" href="{{ page.url | relative_url }}" hidden></a> -->
+</article>
+
+<!-- Load library from the CDN -->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+<!-- Setup and start animation! -->
+<script>
+
+document.addEventListener("DOMContentLoaded", function() {
+            // Collect all paragraphs within the content
+            const paragraphs = Array.from(document.querySelectorAll('.post-content p'));
+            // Extract the text from each paragraph
+            const strings = paragraphs.map(p => p.innerText);
+            
+             // Function to create a new paragraph element
+             function createParagraph() {
+                const p = document.createElement('p');
+                document.querySelector('.typed-post').appendChild(p);
+                return p;
+            }
+
+            // Initialize Typed.js for each string
+            function typeNextString(index) {
+                if (index < strings.length) {
+                    const paragraph = createParagraph();
+                    new Typed(paragraph, {
+                        strings: [strings[index]],
+                        typeSpeed: 40,
+                        backSpeed: 25,
+                        startDelay: 500,
+                        backDelay: 1000,
+                        loop: false,
+                        showCursor: false,
+                        cursorChar: '|',
+                        autoInsertCss: true,
+                        onComplete: function () {
+                            // Type the next string after a delay
+                            setTimeout(function () {
+                                typeNextString(index + 1);
+                            }, 500);
+                        }
+                    });
+                }
+            }
+
+            typeNextString(0);
+
+        });
+</script>
+

@@ -2,7 +2,7 @@
 title: Guide for Creating a Jekyll Theme
 date: 2024-06-19 17:24:58 -0700
 layout: post
-published: true
+published: false
 ---
 
 Yesterday we created some important files and folders for our Jekyll project. Today we will continue adding all the necessary files and building the HTML structure.
