@@ -1,18 +1,39 @@
 ---
-title: Typed Posts
+title: HyperTexts
 date: 2024-06-20
 layout: typed_post
 published: true
 ---
 
-I'd been toying with the idea of developing a blog in which the content is
-animated into existence. The premise is simple, the idea is to have a finished
-post written in Markdown, processed by Jekyll, and animated on the website
-itself using Matt Boldt's [Typed.js library](https://mattboldt.github.io/typed.js/docs/).
+Sometimes it’s necessary to animate content into existence. 
 
-The idea was to make the process of reading more interactive. When faced with 
-several large blocks of text, more often than not website visitors will move 
-away to another site. 
+The idea came after thinking about TikTok. One of the ways the platform captures engagement for hours on end is by removing the tension between having access to and engaging with content. In a deliberate assault of the senses, videos start playing automatically to stun and disarm the viewer into engagement: one tap to pause, two to like. A swipe up shows the next video and renews the process.
 
-I figured that by having the content be displayed in a piecemeal fashion, there'd
-be more of an incentive to stay on the page and discover what else is new.
+Plain text is more innocuous and the stakes are clear. Read if you want. It’s all text. Sometimes there are many blocks of text and with any luck the author has taken some time to present the content in a pleasant format. Legible fonts, agreeable margins, decent line-height, etc. These precautions are almost always guaranteed in print media. 
+
+But in the digital space, formatting is all over the place. Some websites use appalling fonts while others relegate content to favor ad banners. And the tension between access and engagement remains.
+
+*Reading* is a deliberate act. To read is to engage. You can’t passively read an article the way you passively watch a video. And because it’s a bigger commitment, the reader needs an incentive. 
+
+Most of the time, the incentive is established before engaging with the text. For example, when I read an article on Wikipedia, it will presumably provide information I want to know. Similarly, if I see a flashy headline and click to read more, I want my curiosity satisfied.
+
+Now imagine you’re scrolling on TikTok and a large block of text comes up. 
+
+Q: What incentive do I have to read this and why should I care about it?
+
+A: None. And you probably shouldn’t.
+
+HyperTexts change this answer.
+
+(New) A: By reintroducing curiosity, you can’t help but care about what’s next. The stakes are hidden away from the reader when it’s not clear when (and how) the text ends. 
+
+**HyperText** (n.) 
+> text-based content adapted for short-form video platforms like TikTok, Instagram Reels, YouTube Shorts, etc.
+
+So what is a HyperText? It’s the equivalent of saying "guess what" to someone and postponing the answer many times over. Although I’d like to think it’s the essence of a TikTok video stripped to its most basic elements.◇ 
+
+ 
+
+
+
+

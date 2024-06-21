@@ -1,9 +1,9 @@
 ---
 layout: page
-title: ¿Qué es esto?
+title: About
 permalink: /about/
 ---
 
 {{ site.description }}
 
-Suscríbete <a href="{{ "/feed.xml" | relative_url }}">via RSS</a>
+Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a>

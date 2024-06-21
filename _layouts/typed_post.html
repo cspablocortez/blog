@@ -22,7 +22,7 @@ layout: default
       {%- endif -%}</p>
   </header>
 
-  <pre>Note: The content in this post will be typed automatically.</pre>
+  <pre>Note: The content in this post is displayed gradually.</pre>
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
@@ -46,37 +46,32 @@ layout: default
 <script>
 
 document.addEventListener("DOMContentLoaded", function() {
-            // Collect all paragraphs within the content
             const paragraphs = Array.from(document.querySelectorAll('.post-content p'));
-            // Extract the text from each paragraph
             const strings = paragraphs.map(p => p.innerText);
             
-             // Function to create a new paragraph element
-             function createParagraph() {
+            function createParagraph() {
                 const p = document.createElement('p');
                 document.querySelector('.typed-post').appendChild(p);
                 return p;
             }
 
-            // Initialize Typed.js for each string
             function typeNextString(index) {
                 if (index < strings.length) {
                     const paragraph = createParagraph();
                     new Typed(paragraph, {
                         strings: [strings[index]],
-                        typeSpeed: 40,
+                        typeSpeed: 27,
                         backSpeed: 25,
-                        startDelay: 500,
+                        startDelay: 1500,
                         backDelay: 1000,
                         loop: false,
                         showCursor: false,
                         cursorChar: '|',
                         autoInsertCss: true,
                         onComplete: function () {
-                            // Type the next string after a delay
                             setTimeout(function () {
                                 typeNextString(index + 1);
-                            }, 500);
+                            }, 50);
                         }
                     });
                 }
@@ -86,4 +81,3 @@ document.addEventListener("DOMContentLoaded", function() {
 
         });
 </script>
-

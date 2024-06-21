@@ -1,11 +1,10 @@
-title: Metablog
+title: "/blog"
 author: cspablocortez
 timezone: America/Los_Angeles
-lang: es
+lang: en
 
 description: >- # this means to ignore newlines until "baseurl:"
-    Metablog es un devlog autoreferente en el que 
-    describo su desarrollo como aplicación Jekyll. 
+    /blog is the devlog of cspablocortez.
 
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://cspablocortez.github.io" # the base hostname & protocol for your site, e.g. http://example.com

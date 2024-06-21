@@ -7,9 +7,8 @@ published: true
 
 Writing and managing your posts in a Jekyll site is easy. Every entry for your devlog will be a Markdown file saved in the `_posts` folder.
 
-To create a new post, create a new file within `_posts` using the following format: `YYYY-MM-DD-TITLE.md`. For example, our first entry will be titled "Congressional App Challenge Day 1", so we will be creating a file called `2024-06-05-congressional-day-1.md`.[^1]
+To create a new post, create a new file within `_posts` using the following format: `YYYY-MM-DD-TITLE.md`. For example, our first entry will be titled "Congressional App Challenge Day 1", so we will be creating a file called `2024-06-05-congressional-day-1.md`.
 
-[^1]: Kendric needs to update his file name.
 
 In this file, we will outline today's lesson. We started by reviewing the 2023 Congressional App Challenge winners for Nevada, making notes about the app idea and its implementation, paying attention to the software stack used. To add this information in our file, the first thing we must do is add [front matter][front-matter].
 
