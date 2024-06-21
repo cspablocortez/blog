@@ -7,9 +7,9 @@ published: true
 
 Sometimes it’s necessary to animate content into existence. 
 
-The idea came after thinking about TikTok. One of the ways the platform captures attention for hours on end is by removing the tension between having access to and engaging with content. 
+In a deliberate assault of the senses, TikTok plays videos automatically to stun and disarm the viewer into content consumption.
 
-In a deliberate assault of the senses, videos start playing automatically to stun and disarm the viewer into engagement: one tap to pause, two to like. A swipe up shows the next video and renews the process.
+It works. Hours are sunk into the platform by removing the tension between two forces: access and engagement. Videos are flashy and loud and I’ve already seen enough to know whether I’ll stay and watch or swipe up and start all over.
 
 Plain text is more innocuous. The stakes are clear. **Read if you want.**  It’s *just* text. Sometimes there are many blocks of text and with any luck the author will have taken some time to present the content in a pleasant format. Legible fonts, agreeable margins, decent line-height and other precautions almost always guaranteed in print media. 
 
