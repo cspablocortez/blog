@@ -7,11 +7,15 @@ published: true
 
 Sometimes it’s necessary to animate content into existence. 
 
-The idea came after thinking about TikTok. One of the ways the platform captures engagement for hours on end is by removing the tension between having access to and engaging with content. In a deliberate assault of the senses, videos start playing automatically to stun and disarm the viewer into engagement: one tap to pause, two to like. A swipe up shows the next video and renews the process.
+The idea came after thinking about TikTok. One of the ways the platform captures engagement for hours on end is by removing the tension between having access to and engaging with content. 
+
+In a deliberate assault of the senses, videos start playing automatically to stun and disarm the viewer into engagement: one tap to pause, two to like. A swipe up shows the next video and renews the process.
 
 Plain text is more innocuous and the stakes are clear. Read if you want. It’s all text. Sometimes there are many blocks of text and with any luck the author has taken some time to present the content in a pleasant format. Legible fonts, agreeable margins, decent line-height, etc. These precautions are almost always guaranteed in print media. 
 
-But in the digital space, formatting is all over the place. Some websites use appalling fonts while others relegate content to favor ad banners. And the tension between access and engagement remains.
+In the digital space, formatting is all over the place. Some websites use appalling fonts while others relegate content to favor ad banners. 
+
+And the tension between access and engagement remains.
 
 *Reading* is a deliberate act. To read is to engage. You can’t passively read an article the way you passively watch a video. And because it’s a bigger commitment, the reader needs an incentive. 
 
@@ -25,14 +29,13 @@ A: None. And you probably shouldn’t.
 
 HyperTexts change this answer.
 
-(New) A: By reintroducing curiosity, you can’t help but care about what’s next. The stakes are hidden away from the reader when it’s not clear when (and how) the text ends. 
+A: By reintroducing curiosity, you can’t help but care about what’s next. The stakes are hidden away when it’s not clear when (and how) the text ends. 
 
-**HyperText** (n.) 
-> text-based content adapted for short-form video platforms like TikTok, Instagram Reels, YouTube Shorts, etc.
+**HyperText** (n.) &mdash; text-based content adapted for short-form video platforms like TikTok, Instagram Reels, YouTube Shorts, etc.
 
-So what is a HyperText? It’s the equivalent of saying "guess what" to someone and postponing the answer many times over. Although I’d like to think it’s the essence of a TikTok video stripped to its most basic elements.◇ 
+So what is a HyperText? It’s the equivalent of saying "guess what" to someone and postponing the answer many times over. Although I’d like to think a HyperText is the essence of a TikTok video stripped to its most basic elements.
 
- 
+◇
 
 
 
