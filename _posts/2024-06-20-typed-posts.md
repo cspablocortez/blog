@@ -7,11 +7,11 @@ published: true
 
 Sometimes it’s necessary to animate content into existence. 
 
-The idea came after thinking about TikTok. One of the ways the platform captures engagement for hours on end is by removing the tension between having access to and engaging with content. 
+The idea came after thinking about TikTok. One of the ways the platform captures attention for hours on end is by removing the tension between having access to and engaging with content. 
 
 In a deliberate assault of the senses, videos start playing automatically to stun and disarm the viewer into engagement: one tap to pause, two to like. A swipe up shows the next video and renews the process.
 
-Plain text is more innocuous. The stakes are clear. **Read if you want.**  It’s *just* text. Sometimes there are many blocks of text and with any luck the author has taken some time to present the content in a pleasant format. Legible fonts, agreeable margins, decent line-height, etc. These precautions are almost always guaranteed in print media. 
+Plain text is more innocuous. The stakes are clear. **Read if you want.**  It’s *just* text. Sometimes there are many blocks of text and with any luck the author will have taken some time to present the content in a pleasant format. Legible fonts, agreeable margins, decent line-height and other precautions almost always guaranteed in print media. 
 
 In the digital space, formatting is all over the place. Some websites use appalling fonts while others relegate content to favor ad banners. 
 
