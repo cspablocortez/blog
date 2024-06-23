@@ -2,7 +2,7 @@
 title: Menotext
 date: 2024-06-20
 layout: typed_post
-published: true
+published: false
 ---
 
 Sometimes it’s necessary to animate plain text into existence. 
