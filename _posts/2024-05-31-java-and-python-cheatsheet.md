@@ -252,6 +252,22 @@ I recommend you solve at least *one* of the following problems using *both* lang
 
 [USACO 2016 December Contest, Silver - Problem 1. Counting Haybales](https://usaco.org/index.php?page=viewproblem2&cpid=666)
 
+## Assignment
+
+### BRONZE
+
+	Hungry Cow Feb 2023
+	
+
+### SILVER 
+	Bakery Feb 23
+
+### GOLD
+
+	Piling Papers Feb 23
+	
+
+TEMPLATE for USACO problems
 
 
 
